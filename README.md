@@ -17,6 +17,12 @@ We model the overall CPS under attack as a constrained switching system with the
 
 We consider attack policies that enable attackers to embed logic. Individual attack operations are made up of two main ingredients: the targeted channel(s) and the set of logic rules (e.g., dwell-time, attack channels). Logic rules are expressed via a regular language. The overall attack policy is described by a directed labelled graph. An edge indicates a set of attack operations, each acting on a specific system signal (e.g., measurements readings, actuation) over an unsafe channel. An edge also signifies the transition of the physical process in a single time step under the set of underlying attack actions, and, thus, is associated with a specific dynamic mode.
 
+### Impact metrics
+
+#### Safe set
+
+#### Minkowski and Lebesgue measure
+
 ### Reference
 
 Detailed description of the overall system model and the attack patterns considered can be found in https://doi.org/10.48550/arXiv.2211.12196.
