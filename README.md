@@ -30,7 +30,7 @@ Based on the constructed safe set, we assess vulnerability by two complementary 
 
 ### Reference
 
-Detailed description of the overall system model and the attack patterns considered can be found in https://doi.org/10.48550/arXiv.2211.12196.
+Detailed description of the overall system model, the attack patterns, and the impact metrics can be found in https://doi.org/10.48550/arXiv.2211.12196.
 
 ### Requirements
 
