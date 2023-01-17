@@ -21,7 +21,7 @@ We consider attack policies that enable attackers to embed logic. Individual att
 
 #### Safe set
 
-By modelling the overall attack scheme as a constrained switching system, we characterise the set of all initial states that cannot be driven to an unsafe state under any allowable attack. We call this the _safe set_ of the attacked CPS. This is an infinite-reachability, dynamic programming problem: The maximal safe set can be retrieved by computing, in a recursive fashion, the fixed point of the sequence of sets ${{S_i}}$, $i = 1,2,...$, with
+By modelling the overall attack scheme as a constrained switching system, we characterise the set of all initial states that cannot be driven to an unsafe state under any allowable attack. We call this the _safe set_ of the attacked CPS. This is an infinite-reachability, dynamic programming problem: The maximal safe set can be retrieved by computing, in a recursive fashion, the fixed point of the sequence of sets $\lbraceS_i\rbrace$, $i = 1,2,...$, with
 $S_{i+1} = \text{Pre}(S_i) \cap S_0,$ where $S_0 = X_0$ denotes the state-constraints set, and $\textnormal{Pre}(S_i)$ is the _preimage map_, that is the set of states $x$ for which, for all permissible attack patterns, the successor state $x^+\in S_i$. 
 
 #### Minkowski and Lebesgue measure
