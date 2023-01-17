@@ -27,7 +27,7 @@ The computation of safe sets requires the MPT3 toolbox https://www.mpt3.org/ for
 
 ### Acknowledgements
 
-This 
+This work is the result of collaboration between Queen’s University Belfast, UK, University of Cork, Ireland, and Rochester Institute of Technology, USA.
 
 
 
